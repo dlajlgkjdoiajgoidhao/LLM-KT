@@ -1,4 +1,4 @@
-# UniKT
+# LLM-KT
 
 ## Installation
 Use the following command to install pyKT: Create conda envirment.
@@ -31,7 +31,7 @@ python data_preprocess.py --dataset_name=ednet5w
 ## Train & Evaluate
 ### Train
 ```
-python -m torch.distributed.launch --nproc_per_node=1 wandb_gpt4kt_train.py --seq_len=200
+python -m torch.distributed.launch --nproc_per_node=1 wandb_unikt_train.py --seq_len=200
 ```
 
 ## Evaluate
