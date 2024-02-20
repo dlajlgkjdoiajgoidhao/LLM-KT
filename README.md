@@ -8,7 +8,7 @@ source activate pykt
 ```
 
 ```
-cd UniKT
+cd LLM-KT
 pip install -e .
 ```
 
