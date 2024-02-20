@@ -20,12 +20,7 @@ You can download datasets from {https://pykt-toolkit.readthedocs.io/en/latest/da
 ### Preprocess
 ```
 cd examples
-python data_preprocess.py --dataset_name=algebra2005
-python data_preprocess.py --dataset_name=bridge2algebra2006
-python data_preprocess.py --dataset_name=nips_task34
-python data_preprocess.py --dataset_name=peiyou
-python data_preprocess.py --dataset_name=assist2009
-python data_preprocess.py --dataset_name=ednet5w
+python data_preprocess.py --dataset_name=ednet_all
 ```
 
 ## Train & Evaluate
